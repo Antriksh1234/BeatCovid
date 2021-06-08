@@ -1,0 +1,176 @@
+<resources>
+    <string name="app_name">BeatCovid - Fight against the COVID-19</string>
+
+    <string name="we_can_do_it_english">We can do it!</string>
+    <string name="we_can_do_it_hindi">हम यह कर सकते हैं!</string>
+
+    <string name="chain_english">Let\'s break the chain and prevent the spread of novel coronavirus</string>
+    <string name="chain_hindi">चलिए संक्रमण की चेन को तोड़ते हैं और कोरोनावायरस से मिलकर लड़ते हैं|</string>
+
+    <string name="home">Home</string>
+    <string name="articles">Articles</string>
+    <string name="learn_more"><u>Learn More</u></string>
+    <string name="content_we_loved">Content We loved</string>
+    <string name="vaccination_and_testing">Vaccination and testing</string>
+    <string name="sharedPreferenceKey">com.atandroidlabs.beatcovid_fightagainstthecovid_19</string>
+
+    <string name="language">language</string>
+    <string name="language_english_key">English</string>
+    <string name="language_hindi_key">Hindi</string>
+
+    <string name="loading">Loading…</string>
+    <string name="settings_icon">settings icon</string>
+
+    <string name="choose_lang_english">Choose Your Language</string>
+    <string name="choose_language_hindi">अपनी भाषा चुनिए</string>
+
+    <string name="lorem_ipsum_small">Lorem ipsum dolor sit amet, consectetur adipiscing</string>
+    <string name="lorem_ipsum_big">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
+
+    <string name="vaccine_safe_text_long_english">Vaccines are totally safe and help you prevent COVID 19. Register on CoWin and get your shot of vaccination now.</string>
+    <string name="vaccine_safe_text_long_hindi">वैक्सीन पूरी तरह से सुरक्षित हैं और आपको कोविड 19 से बचाने में मदद करती हैं। CoWin पर अभी पंजीकरण करें और टीका लगवाएं।</string>
+
+    <string name="how_to_register_on_cowin_english">How to register on CoWin?</string>
+    <string name="how_to_register_on_cowin_hindi">CoWin पर पंजीकरण कैसे करें?</string>
+
+    <string name="register_cowin_english">"1. Go to CoWin website (https://www.cowin.gov.in/home) and click on Register/Sign in yourself.\n\n"
+        "2. Add your mobile number and click on Get OTP. After receiving the OTP, type the digits on the site , and click on \‘Verify\’.\n\n"
+        "3. Choose an option which you will use as your photo ID proof. Also provide your details like your name, gender and year of birth.\n\n"
+        "4. Click on register. Now if you wish you may add a member linking with same mobile number using add member. If you do, follow the same steps of providing personal detail of the other member.\n\n"
+        "5. Now you can click on schedule button under your name and proceed to schedule now.\n\n"
+        "6. Choose you vaccination centre by pin or district and select an appropriate centre near you where slots are available. Don\'t forget to apply appropriate tags like 18+/45+, Covaxin / CovidShield etc according to your needs.\n\n"
+        "7. Finally select the time and confirm the appointment and now you can go to the centre at assigned date and get vaccinated."
+    </string>
+
+    <string name="register_cowin_hindi">"1. CoWin वेबसाइट (https://www.cowin.gov.in/home) पर जाएं और रजिस्टर/साइन इन पर क्लिक करें।\n\n"
+        "2. अपना मोबाइल नंबर जोड़ें और Get OTP पर क्लिक करें। ओटीपी प्राप्त करने के बाद, साइट पर अंक टाइप करें, और 'Verify' पर क्लिक करें।\n\n"
+        "3. एक विकल्प चुनें जिसे आप अपने फोटो आईडी प्रूफ के रूप में उपयोग करेंगे। अपना नाम, लिंग और जन्म का वर्ष जैसे विवरण भी प्रदान करें।\n\n"
+        "4. रजिस्टर पर क्लिक करें। अब आप चाहें तो ऐड मेंबर का उपयोग करके उसी मोबाइल नंबर से लिंक करने वाले सदस्य को जोड़ सकते हैं। यदि आप करते हैं, तो दूसरे सदस्य के व्यक्तिगत विवरण प्रदान करने के समान प्रक्रिया का पालन करें।\n\n"
+        "5. अब आप अपने नाम के नीचे शेड्यूल बटन पर क्लिक कर सकते हैं और अभी शेड्यूल करने के लिए आगे बढ़ सकते हैं।"
+        "6. पिन या जिले के अनुसार अपना टीकाकरण केंद्र चुनें और अपने पास एक उपयुक्त केंद्र का चयन करें जहां स्लॉट उपलब्ध हों। अपनी आवश्यकताओं के अनुसार उपयुक्त टैग जैसे 18+/45+, कोवाक्सिन/कोविडशील्ड आदि लगाना न भूलें।\n\n"
+        "7. अंत में समय का चयन करें और नियुक्ति की पुष्टि करें और अब आप निर्धारित तिथि पर केंद्र में जा सकते हैं और टीका लगवा सकते हैं।"
+    </string>
+
+    <string name="lets_beat_covid_hindi">आओ कोरोनावायरस को हराएं</string>
+
+    <string name="neither_get_infected_nor_infect_others_hindi">आइए संकल्प लें कि हम न तो संक्रमित होंगे और न ही दूसरों को संक्रमित करेंगे</string>
+    <string name="neither_get_infected_nor_infect_others_english">Let\'s pledge together that neither we will get infected nor infect others</string>
+
+    <string name="stats_for_nerds_hindi">आँकड़े</string>
+    <string name="stats_for_nerds_english">Stats for nerds</string>
+
+    <string name="our_articles_english">Our Articles</string>
+    <string name="our_articles_hindi">हमारे लेख</string>
+
+    <string name="vaccines_are_safe_english">Vaccines are safe</string>
+    <string name="vaccines_are_safe_hindi">वैक्सीन सुरक्षित हैं।</string>
+
+    <string name="live_stats_english">Live Stats</string>
+    <string name="live_stats_hindi">लाइव स्थिति</string>
+
+    <string name="gets_updated_every_day_english">Gets updated every day</string>
+    <string name="gets_updated_every_day_hindi">हर दिन अपडेट होता है</string>
+
+    <string name="total_english">Total</string>
+    <string name="total_hindi">कुल</string>
+
+    <string name="view_all_english">View All</string>
+    <string name="view_all_hindi">सभी देखें</string>
+
+    <string name="total_cases_english">Total Cases</string>
+    <string name="total_cases_hindi">कुल मामले</string>
+
+    <string name="recovered_english">Recovered</string>
+    <string name="recovered_hindi">स्वस्थ हुए</string>
+
+    <string name="death_english">Deaths</string>
+    <string name="death_hindi">मौतें</string>
+
+    <string name="stay_safe_english">Stay Safe</string>
+    <string name="stay_safe_hindi">सुरक्षित रहें</string>
+
+    <!--FAQ Questions-->
+    <string name="question1">Should I take COVID 19 vaccine? Is it safe?</string>
+    <string name="answer1">Vaccines are helpful in preventing the COVID 19 infection. Hence you must take the vaccine as soon as possible.</string>
+
+    <string name="question2">So after vaccination, will I not get the infection anymore?</string>
+    <string name="answer2">No, that\'s not the case. You can still get Covid 19 even when you are vaccinated.</string>
+
+    <string name="question3">So does that imply that I still wear masks if I am vaccinated?</string>
+    <string name="answer3"><b>Definitely, You need to wear masks and take all the precautionary steps even after getting vaccinated.</b></string>
+
+    <string name="question4">So what\'s the point of getting vaccination when the infection can still affect me?</string>
+    <string name="answer4">The previous answer does NOT mean that it does not provide any protection. After being vaccinated, the chance of getting infected reduces a lot. Also even if you are infected, chances are that you have only very mild symptoms. Till now what we know of, infection even after being vaccinated (known as the breakthrough infection) has very feeble chances. So getting vaccinated actually helps.</string>
+
+    <string name="question5">So which vaccine should I take?</string>
+    <string name="answer5">Well, take whichever vaccine is being offered to you. All are good to provide you with safety. If you still have doubts, then we will probably cover it up in the <b>Content We loved</b> and the <b>Articles</b> section in detail.</string>
+
+    <string name="question1_hindi">क्या मुझे COVID 19 का टीका लगवाना चाहिए? क्या ये सुरक्षित है?</string>
+    <string name="answer1_hindi">वैक्सीन COVID 19 संक्रमण को रोकने में सहायक होते हैं। इसलिए आपको जल्द से जल्द टीका लगवाना चाहिए।</string>
+
+    <string name="question2_hindi">तो क्या टीकाकरण के बाद अब मुझे संक्रमण नहीं होगा?</string>
+    <string name="answer2_hindi">नहीं, ऐसा नहीं है। टीका लगवाने के बाद भी आपको कोविड 19 हो सकता है। हालांकि, संभावना बहुत कम है।</string>
+
+    <string name="question3_hindi">तो क्या इसका मतलब यह है कि टीकाकरण के बाद भी मुझे मास्क पहनने की जरूरत है?</string>
+    <string name="answer3_hindi">निश्चित रूप से, आपको टीका लगवाने के बाद भी मास्क पहनने और सभी एहतियाती कदम उठाने की आवश्यकता है।</string>
+
+    <string name="question4_hindi">तो जब संक्रमण अभी भी मुझे प्रभावित कर सकता है, तो टीकाकरण कराने का क्या मतलब है?</string>
+    <string name="answer4_hindi">पिछले उत्तर का अर्थ यह नहीं है कि यह कोई सुरक्षा प्रदान नहीं करता है। टीका लगवाने के बाद संक्रमित होने की संभावना काफी कम हो जाती है। इसके अलावा, यदि आप संक्रमित हैं, तो भी संभावना है कि आपके पास केवल बहुत ही हल्के लक्षण हों। अब तक हम जो जानते हैं, टीकाकरण के बाद भी संक्रमण (जिसे Breakthrough infection के नाम से जाना जाता है) की संभावना बहुत कम होती है। इसलिए टीका लगवाना वास्तव में मदद करता है।</string>
+
+    <string name="question5_hindi">तो मुझे कौन सा टीका लगवाना चाहिए?</string>
+    <string name="answer5_hindi">आपको जो भी वैक्सीन दी जा रही है, उसे लें। आपको सुरक्षा प्रदान करने के लिए सभी अच्छी हैं। यदि आप और अधिक विस्तार से जानना चाहते हैं, तो हम भविष्य में इसे अपने ऐप में विस्तार से कवर करेंगे।</string>
+    <string name="register_english">Register</string>
+    <!--FAQ Questions end-->
+
+    <string name="maintain_social_distancing_english">Maintain Social Distancing</string>
+    <string name="maintain_social_distancing_hindi">फिजिकल डिस्टेंसिंग बनाए रखें</string>
+    <string name="maintain_social_distancing_big_english">Maintain Physical distancing. Avoid going to gatherings and arranging functions. Stay at home as much as possible.</string>
+    <string name="maintain_social_distancing_big_hindi">फिजिकल डिस्टेंसिंग बनाए रखें। सभाओं में जाने और कार्यक्रमों की व्यवस्था करने से बचें। जितना हो सके घर पर ही रहें। अपने आसपास के लोगों को भी जागरूक करें।</string>
+
+    <string name="wear_mask_english">Wear Masks When Going Outdoors</string>
+    <string name="wear_mask_hindi">बाहर जाते समय हमेशा मास्क पहनें</string>
+    <string name="wear_mask_big_english">Wearing mask is a great measure to prevent any germs or microbes to enter your body. Hence always wear masks.</string>
+    <string name="wear_mask_big_hindi">आपके शरीर में किसी भी कीटाणु या रोगाणुओं को प्रवेश करने से रोकने के लिए मास्क पहनना एक बेहतरीन उपाय है। इसलिए हमेशा मास्क पहनें।</string>
+
+    <string name="wash_your_hands_english">Use Soaps and Sanitizers</string>
+    <string name="wash_your_hands_big_english">Washing your hands is very important. Wash your hands for at least 20 seconds or use hand sanitizers.</string>
+    <string name="wash_your_hands_hindi">साबुन और सैनिटाइजर का प्रयोग करें</string>
+    <string name="wash_your_hands_big_hindi">हाथ धोना आपको कई बीमारियों से बचाता है, इसीलिए हाथ धोना बहुत जरूरी है। अपने हाथों को कम से कम 20 सेकंड तक धोएं या हैंड सैनिटाइटर का इस्तेमाल करें।</string>
+
+    <string name="stay_at_home_english">Stay At Home If Possible</string>
+    <string name="stay_at_home_big_english">Stay indoors as much as possible. Only go out if it is an emergency. Also never forget to wear masks when going out.</string>
+    <string name="stay_at_home_hindi">हो सके तो घर पर रहें और बाहर न जाएं</string>
+    <string name="stay_at_home_big_hindi">जितना हो सके घर के अंदर ही रहें। इमरजेंसी होने पर ही बाहर निकलें। साथ ही बाहर जाते समय कृपया मास्क पहनना कभी न भूलें।</string>
+
+    <string name="check_news_validity_english">Check the Validity of News</string>
+    <string name="check_news_validity_hindi">समाचार की वैधता की जाँच करें</string>
+    <string name="check_news_big_english">Never forward any message without verifying from multiple sources on internet. Always use Google to fact check.</string>
+    <string name="check_news_big_hindi">हमेशा खबरों की वैलिडिटी चेक करें। फैक्ट चेक करने के लिए हमेशा गूगल का इस्तेमाल करें। बिना जांचे किसी भी संदेश को कभी भी साझा न करें।</string>
+
+    <string name="get_vaccinated_english">Get Yourself Vaccinated</string>
+    <string name="get_vaccinated_hindi">जल्द से जल्द टीका लगवाएं</string>
+
+    <string name="help_others_english">Always Look to Help Others</string>
+    <string name="help_others_hindi">दूसरों की मदद के लिए हमेशा तैयार रहें </string>
+    <string name="help_others_big_english">Always look to help others as much as possible. It can be any level of help from feeding poor to educating others.</string>
+    <string name="help_others_big_hindi">हमेशा जितना हो सके दूसरों की मदद करने की कोशिश करें। यह गरीबों को खाना खिलाने से लेकर दूसरों को शिक्षित करने तक किसी भी स्तर की मदद हो सकती है।</string>
+
+    <string name="content_we_loved_hindi">वीडियो जो हमें पसंद आए</string>
+    <string name="content_we_loved__sub_english">Updated Regularly</string>
+    <string name="content_we_loved_sub_hindi">नियमित रूप से अपडेट किया जाता है</string>
+
+    <string name="feedback_head">Feedback And Suggestion</string>
+    <string name="feedback_head_hindi">प्रतिक्रिया और सुझाव</string>
+
+    <string name="thank_you_head">Thank You!</string>
+    <string name="thank_you_hindi">शुक्रिया!</string>
+
+    <string name="we_will_work_on_it">We will definitely work on it</string>
+    <string name="we_will_work_on_it_hindi">हम निश्चित रूप से इस पर काम करेंगे।</string>
+
+    <string name="you_can_write_us">You can write us your suggestions and feedback to make our app better. Also you may tell us something you want to know about. We will definitely try to cover it up in our app in future. You can directly mail us at antrikshtelang1998@gmail.com as well</string>
+    <string name="you_can_write_us_hindi">हमारे ऐप को बेहतर बनाने के लिए आप हमें अपने सुझाव और प्रतिक्रिया लिख ​​सकते हैं। इसके अलावा आप हमें कुछ ऐसे विषय बता सकते हैं जिनके बारे में आप विस्तार से जानना चाहते हैं। हम निश्चित रूप से भविष्य में इसे अपने ऐप में शामिल करने का प्रयास करेंगे। आप हमें सीधे antrikshtelang1998@gmail.com पर भी मेल कर सकते हैं।</string>
+    <string name="content_here">Content here</string>
+    <string name="title_here">Title Here</string>
+
+</resources>

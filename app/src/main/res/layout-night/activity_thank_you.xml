@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/thank_you"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thank You!"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textSize="36sp"
+        android:fontFamily="@font/montserrat_extrabold"
+        android:layout_marginTop="40dp"/>
+
+    <ImageView
+        android:src="@drawable/ic_baseline_mood_24"
+        android:layout_width="100dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/thank_you"
+        android:layout_marginTop="40dp"
+        android:layout_height="100dp"
+        android:id="@+id/thank_img"
+        app:tint="@color/themeColor" />
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/thank_subtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="We will definitely work on it"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/thank_img"/>
+
+    <Button
+        android:backgroundTint="#0000FF"
+        android:onClick="finishActivity"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/thank_subtext"
+        android:text="Return to home"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

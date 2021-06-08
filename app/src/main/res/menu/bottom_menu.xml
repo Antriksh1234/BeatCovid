@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_home"
+        android:title="@string/home"
+        android:icon="@drawable/ic_baseline_home_24"/>
+
+    <item android:id="@+id/nav_articles"
+        android:title="@string/articles"
+        android:icon="@drawable/ic_baseline_menu_book_24" />
+
+    <item android:id="@+id/nav_content_of_the_week"
+        android:title="@string/content_we_loved"
+        android:icon="@drawable/ic_baseline_link_24"/>
+
+    <item android:id="@+id/nav_vaccination_and_testing"
+        android:title="@string/vaccination_and_testing"
+        android:icon="@drawable/ic_baseline_how_to_reg_24"/>
+</menu>

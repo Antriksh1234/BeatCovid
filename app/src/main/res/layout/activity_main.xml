@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_bg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/dashboard_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:fontFamily="@font/montserrat_extrabold"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="20dp"
+        android:text="DashBoard"/>
+
+    <ImageView
+        android:id="@+id/settings_icon"
+        android:contentDescription="@string/settings_icon"
+        android:onClick="goToSettings"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_baseline_settings_24"
+        app:layout_constraintTop_toTopOf="@id/dashboard_text"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/dashboard_text"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:contentDescription="@string/settings_icon"
+        android:onClick="goToFeedback"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_baseline_edit_24"
+        app:layout_constraintTop_toTopOf="@id/dashboard_text"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="@id/dashboard_text"
+        app:layout_constraintEnd_toStartOf="@id/settings_icon" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:backgroundTint="@color/white"
+        app:labelVisibilityMode="labeled"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:menu="@menu/bottom_menu"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@id/bottom_nav"
+        app:layout_constraintTop_toBottomOf="@id/dashboard_text"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

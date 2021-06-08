@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "875597141830",
+    "project_id": "beatcovid-ec762",
+    "storage_bucket": "beatcovid-ec762.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875597141830:android:159ac13bebe3e4d9347747",
+        "android_client_info": {
+          "package_name": "com.atandroidlabs.beatcovid_fightagainstthecovid_19"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875597141830-ilq6jmo971qimqu2kikkfu7jq54eqg9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN2J6vNiVf8PPjtZSH3JObkPTRHap36tY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875597141830-ilq6jmo971qimqu2kikkfu7jq54eqg9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

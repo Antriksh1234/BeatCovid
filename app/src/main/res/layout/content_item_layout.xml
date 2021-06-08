@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginBottom="40dp">
+
+    <ImageView
+        android:layout_marginBottom="6dp"
+        android:layout_marginTop="20dp"
+        android:src="@color/purple_500"
+        android:id="@+id/photo_thumbnail"
+        android:layout_width="120dp"
+        android:layout_alignTop="@id/content_linear"
+        android:layout_alignBottom="@id/content_linear"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        />
+
+    <LinearLayout
+        android:id="@+id/content_linear"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toEndOf="@id/photo_thumbnail">
+
+        <TextView
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:text="@string/lorem_ipsum_small"
+            android:id="@+id/content_title"
+            android:layout_marginStart="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/montserrat_extrabold"/>
+
+        <com.google.android.material.button.MaterialButton
+            app:icon="@drawable/ic_baseline_play_circle_24"
+            android:text="Play Now"
+            app:cornerRadius="10dp"
+            android:layout_marginStart="20dp"
+            android:id="@+id/play_button"
+            android:layout_marginTop="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

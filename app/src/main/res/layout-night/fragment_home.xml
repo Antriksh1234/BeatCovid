@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:id="@+id/beat_covid_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lets_beat_covid_hindi"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:fontFamily="@font/montserrat_extrabold"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/open_sans_regular"
+        android:layout_marginTop="10dp"
+        android:id="@+id/beat_covid_subtext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/beat_covid_text"
+        android:textAlignment="center"
+        android:layout_alignStart="@id/beat_covid_text"
+        android:layout_alignEnd="@id/beat_covid_text"
+        android:text="@string/neither_get_infected_nor_infect_others_hindi"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/boy_girl_bg_night"
+        android:layout_above="@id/heading2"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/heading2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/covid_card"
+        android:layout_marginTop="30dp"
+        android:layout_above="@id/covid_card"
+        android:fontFamily="@font/montserrat_extrabold"
+        android:text="@string/stats_for_nerds_hindi"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/view_all_textView"
+        android:layout_marginEnd="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@id/heading2"
+        android:layout_alignBottom="@id/heading2"
+        android:text="@string/view_all_hindi"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/open_sans_regular"
+        android:gravity="center_vertical"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/covid_card"
+        app:cardCornerRadius="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_margin="20dp"
+        android:layout_alignParentBottom="true"
+        app:cardElevation="4dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="#0000FF"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:id="@+id/total_cases_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/total_cases_hindi"
+                android:layout_above="@id/recovered_cases_text"
+                android:layout_marginStart="20dp"
+                android:textSize="24sp"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:textColor="@color/white"/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:id="@+id/recovered_cases_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/recovered_hindi"
+                android:textSize="24sp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="20dp" />
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:id="@+id/death_cases_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/death_hindi"
+                android:layout_below="@id/recovered_cases_text"
+                android:layout_marginStart="20dp"
+                android:textSize="24sp"
+                android:fontFamily="@font/montserrat_extrabold"/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_marginEnd="30dp"
+                android:id="@+id/total_no_text"
+                android:layout_alignParentEnd="true"
+                android:layout_above="@id/recovered_no_text"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loading"
+                android:textSize="24sp"
+                android:fontFamily="@font/montserrat_extrabold"/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_marginEnd="30dp"
+                android:id="@+id/recovered_no_text"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loading"
+                android:textSize="24sp"
+                android:fontFamily="@font/montserrat_extrabold"/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:layout_marginEnd="30dp"
+                android:id="@+id/death_no_text"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@id/recovered_no_text"
+                android:layout_marginBottom="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loading"
+                android:layout_marginTop="10dp"
+                android:textSize="24sp"
+                android:fontFamily="@font/montserrat_extrabold"/>
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

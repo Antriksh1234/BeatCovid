@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/choose_lang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/montserrat_extrabold"
+        android:text="@string/choose_lang_english"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/settings_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:weightSum="2"
+        android:layout_alignStart="@id/choose_lang"
+        android:layout_alignEnd="@id/choose_lang"
+        android:layout_centerInParent="true">
+
+        <androidx.cardview.widget.CardView
+            android:tag="1"
+            android:id="@+id/hindi_cardView"
+            android:onClick="changeLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginEnd="10dp"
+
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/hindiPrimary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/montserrat_extrabold"
+                    android:text="हिंदी"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/hindiSecondary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/hindiPrimary"
+                    android:layout_centerHorizontal="true"
+                    android:text="Hindi"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:tag="2"
+            android:id="@+id/english_cardView"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginStart="10dp"
+            android:onClick="changeLanguage"
+            android:layout_weight="1">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:id="@+id/englishPrimary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:fontFamily="@font/montserrat_extrabold"
+                    android:text="English"
+                    android:textSize="34sp" />
+
+                <TextView
+                    android:id="@+id/englishSecondary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/englishPrimary"
+                    android:layout_centerHorizontal="true"
+                    android:text="अंग्रेज़ी"
+                    android:textSize="20sp" />
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/done_button_settings"
+        android:background="#0000FF"
+        android:textColor="@color/white"
+        android:onClick="goBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@id/settings_linear_layout"
+        android:layout_alignEnd="@id/settings_linear_layout"
+        android:layout_below="@id/settings_linear_layout"
+        android:layout_marginTop="40dp"
+        android:text="Done"/>
+
+
+</RelativeLayout>

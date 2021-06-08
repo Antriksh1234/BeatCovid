@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/light_bg">
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/content_title_heading"
+        android:layout_width="wrap_content"
+        android:textSize="24dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/montserrat_extrabold"
+        android:text="Content We Loved"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@color/black"
+        android:fontFamily="@font/open_sans_regular"
+        android:id="@+id/content_head_subtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Updated regularly"
+        android:layout_marginStart="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/content_title_heading"/>
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/content_loading"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/content_head_subtext"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:indeterminate="true"
+        app:indicatorColor="@color/purple_500"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="20dp"
+        android:id="@+id/content_recyclerview"
+        app:layout_constraintTop_toBottomOf="@id/content_head_subtext"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:listitem="@layout/content_item_layout"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

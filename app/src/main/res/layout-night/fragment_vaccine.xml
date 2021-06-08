@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical"
+                    android:layout_toStartOf="@id/boy_image">
+
+                    <TextView
+                        android:textColor="@color/white"
+                        android:id="@+id/vaccine_title_text"
+                        android:layout_marginStart="20dp"
+                        android:fontFamily="@font/montserrat_extrabold"
+                        android:textSize="40sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vaccines_are_safe_hindi"/>
+
+                    <TextView
+                        android:textColor="@color/white"
+                        android:layout_marginTop="10dp"
+                        android:id="@+id/vaccine_sub_text"
+                        android:fontFamily="@font/open_sans_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:layout_marginStart="20dp"
+                        android:text="@string/vaccine_safe_text_long_hindi"/>
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/register_button_main"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/register_english"
+                        app:cornerRadius="20dp"
+                        android:textColor="@color/white"
+                        android:layout_marginStart="20dp"
+                        app:backgroundTint="#0000FF"
+                        android:textAllCaps="true"
+                        android:layout_marginEnd="20dp"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="20dp"/>
+
+                </LinearLayout>
+
+                <ImageView
+                    android:id="@+id/boy_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="300dp"
+                    android:layout_marginEnd="20dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/boy_full"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/how_to_register_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="@string/how_to_register_on_cowin_hindi"
+                android:textSize="24sp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="40dp"/>
+
+            <TextView
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:fontFamily="@font/open_sans_regular"
+                android:layout_marginTop="20dp"
+                android:id="@+id/how_to_register_content"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:text="@string/register_cowin_english"
+                android:layout_height="wrap_content"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/register_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cornerRadius="20dp"
+                android:text="Register / Sign up on CoWin"
+                android:textColor="@color/white"
+                app:backgroundTint="#0000FF"
+                android:layout_marginStart="20dp"
+                android:textAllCaps="true"
+                android:layout_marginEnd="20dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"/>
+            <TextView
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:id="@+id/faq_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/montserrat_extrabold"
+                android:text="FAQ"
+                android:textSize="22sp" />
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/faq_recyclerview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:nestedScrollingEnabled="false"/>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
