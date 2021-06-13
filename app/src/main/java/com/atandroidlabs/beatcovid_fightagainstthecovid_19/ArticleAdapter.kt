@@ -2,6 +2,7 @@ package com.atandroidlabs.beatcovid_fightagainstthecovid_19
 
 import android.content.Context
 import android.content.Intent
+import android.text.TextUtils
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -24,6 +25,10 @@ class ArticleAdapter(private var context: Context, private val articles: ArrayLi
         val url = articles[position].imageUrl
         val date = articles[position].publishDate
         holder.articleTitleTextView.text = title
+        holder.articleTitleTextView.text = title
+        holder.articleTitleTextView.ellipsize = TextUtils.TruncateAt.END
+        holder.articleTitleTextView.maxLines = 2
+
         holder.publishedTextView.text = date
         Picasso.get().load(url).placeholder(R.drawable.ic_baseline_menu_book_24).error(R.drawable.ic_baseline_menu_book_24).into(holder.imageView)
         holder.itemView.setOnClickListener {
