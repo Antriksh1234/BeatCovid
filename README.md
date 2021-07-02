@@ -3,14 +3,14 @@ An application to spread awareness regarding COVID-19.
 
 ## Screenshots
 <p float="left">
-  <img src = "/app/src/main/res/drawable/ss1.jpg" alt  = "Screenshot" width = "200px" style = "padding: 1rem"/>
-<img src = "/app/src/main/res/drawable/ss2.jpg" alt  = "Screenshot" width = "200px"/>
-<img src = "/app/src/main/res/drawable/ss3.jpg" alt  = "Screenshot" width = "200px"/>
-<img src = "/app/src/main/res/drawable/ss4.jpg" alt  = "Screenshot" width = "200px"/>
-<img src = "/app/src/main/res/drawable/ss5.jpg" alt  = "Screenshot" width = "200px"/>
-<img src = "/app/src/main/res/drawable/ss6.jpg" alt  = "Screenshot" width = "200px"/>
-<img src = "/app/src/main/res/drawable/ss7.jpg" alt  = "Screenshot" width = "200px"/>
-<img src = "/app/src/main/res/drawable/ss8.jpg" alt  = "Screenshot" width = "200px"/>
+  <img src = "/app/src/main/res/drawable/ss1.jpg" alt  = "Screenshot" width = "200px"/>
+  <img src = "/app/src/main/res/drawable/ss2.jpg" alt  = "Screenshot" width = "200px"/>
+  <img src = "/app/src/main/res/drawable/ss3.jpg" alt  = "Screenshot" width = "200px"/>
+  <img src = "/app/src/main/res/drawable/ss4.jpg" alt  = "Screenshot" width = "200px"/>
+  <img src = "/app/src/main/res/drawable/ss5.jpg" alt  = "Screenshot" width = "200px"/>
+  <img src = "/app/src/main/res/drawable/ss6.jpg" alt  = "Screenshot" width = "200px"/>
+  <img src = "/app/src/main/res/drawable/ss7.jpg" alt  = "Screenshot" width = "200px"/>
+  <img src = "/app/src/main/res/drawable/ss8.jpg" alt  = "Screenshot" width = "200px"/>
 </p>
 
 
