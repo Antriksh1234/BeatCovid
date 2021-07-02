@@ -17,5 +17,5 @@ The features of hhe app include-
 4. Cloud Firestore
 5. Android Studio for development
 
-##Contributing
+## Contributing
 Your contributions are welcome. Please ensure to test the app to keep it bug free.
