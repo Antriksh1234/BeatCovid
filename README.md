@@ -2,7 +2,7 @@
 An application to spread awareness regarding COVID-19.
 
 ## Screenshots
-![Screenshot](/app/src/main/res/drawable/ss1.jpg?raw=true "Optional Title")
+<img src = "/app/src/main/res/drawable/ss1.jpg" alt  = "Screenshot"/>
 
 ## Features
 The features of hhe app include-
