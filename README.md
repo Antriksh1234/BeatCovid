@@ -11,6 +11,8 @@ An application to spread awareness regarding COVID-19.
   <img src = "/app/src/main/res/drawable/ss6.jpg" alt  = "Screenshot" width = "200px"/>
   <img src = "/app/src/main/res/drawable/ss7.jpg" alt  = "Screenshot" width = "200px"/>
   <img src = "/app/src/main/res/drawable/ss8.jpg" alt  = "Screenshot" width = "200px"/>
+  <img src = "/app/src/main/res/drawable/ss9.jpg" alt  = "Screenshot" width = "200px"/>
+  <img src = "/app/src/main/res/drawable/ss10.jpg" alt  = "Screenshot" width = "200px"/>
 </p>
 
 
