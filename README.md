@@ -24,7 +24,7 @@ The features of hhe app include-
 6. Get to choose your prefered language between Hindi and English and get the app experience in the language you are comfortable with.
 
 ## Technology used
-1. Kotlin
+1. Kotlin and Java
 2. COVID-19 API
 3. XML
 4. Cloud Firestore
