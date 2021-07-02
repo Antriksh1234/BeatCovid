@@ -1,5 +1,5 @@
 # BeatCovid
-An application to sprad awareness regarding COVID-19.
+An application to spread awareness regarding COVID-19.
 
 ## Features
 The features of hhe app include-
