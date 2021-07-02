@@ -2,7 +2,8 @@
 An application to spread awareness regarding COVID-19.
 
 ## Screenshots
-<img src = "/app/src/main/res/drawable/ss1.jpg" alt  = "Screenshot" width = "200px" style = "display: inline-block;"/>
+<p float="left">
+  <img src = "/app/src/main/res/drawable/ss1.jpg" alt  = "Screenshot" width = "200px"/>
 <img src = "/app/src/main/res/drawable/ss2.jpg" alt  = "Screenshot" width = "200px"/>
 <img src = "/app/src/main/res/drawable/ss3.jpg" alt  = "Screenshot" width = "200px"/>
 <img src = "/app/src/main/res/drawable/ss4.jpg" alt  = "Screenshot" width = "200px"/>
@@ -10,6 +11,8 @@ An application to spread awareness regarding COVID-19.
 <img src = "/app/src/main/res/drawable/ss6.jpg" alt  = "Screenshot" width = "200px"/>
 <img src = "/app/src/main/res/drawable/ss7.jpg" alt  = "Screenshot" width = "200px"/>
 <img src = "/app/src/main/res/drawable/ss8.jpg" alt  = "Screenshot" width = "200px"/>
+</p>
+
 
 ## Features
 The features of hhe app include-
