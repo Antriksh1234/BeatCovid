@@ -10,6 +10,7 @@ An application to spread awareness regarding COVID-19.
 <img src = "/app/src/main/res/drawable/ss6.jpg" alt  = "Screenshot" width = "200px"/>
 <img src = "/app/src/main/res/drawable/ss7.jpg" alt  = "Screenshot" width = "200px"/>
 <img src = "/app/src/main/res/drawable/ss8.jpg" alt  = "Screenshot" width = "200px"/>
+
 ## Features
 The features of hhe app include-
 1. Know the latest stats regarding COVID-19 in India and your respective state.
