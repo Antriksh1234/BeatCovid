@@ -2,7 +2,7 @@
 An application to spread awareness regarding COVID-19.
 
 ## Screenshots
-![Screenshot](https://github.com/Antriksh1234/BeatCovid/tree/master/app/src/main/res/drawable/ss1.jpg?raw=true "Optional Title")
+![Screenshot](/app/src/main/res/drawable/ss1.jpg?raw=true "Optional Title")
 
 ## Features
 The features of hhe app include-
