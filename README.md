@@ -2,7 +2,7 @@
 An application to spread awareness regarding COVID-19.
 
 ## Screenshots
-<img src = "/app/src/main/res/drawable/ss1.jpg" alt  = "Screenshot" width = "200px" style = "display: inline-block"/>
+<img src = "/app/src/main/res/drawable/ss1.jpg" alt  = "Screenshot" width = "200px" style = "display: inline-block;"/>
 <img src = "/app/src/main/res/drawable/ss2.jpg" alt  = "Screenshot" width = "200px"/>
 <img src = "/app/src/main/res/drawable/ss3.jpg" alt  = "Screenshot" width = "200px"/>
 <img src = "/app/src/main/res/drawable/ss4.jpg" alt  = "Screenshot" width = "200px"/>
