@@ -17,7 +17,7 @@ An application to spread awareness regarding COVID-19.
 
 
 ## Features
-The features of hhe app include-
+The features of the app include-
 1. Know the latest stats regarding COVID-19 in India and your respective state.
 2. Get the latest articles on COVID-19 and health.
 3. Find the best content available on COVID-19 and health. This too updates over time.
