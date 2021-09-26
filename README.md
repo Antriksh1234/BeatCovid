@@ -22,7 +22,7 @@ The features of the app include-
 2. Get the latest articles on COVID-19 and health.
 3. Find the best content available on COVID-19 and health. This too updates over time.
 4. Get aware regarding Vaccines and know the latest FAQs on vaccines.
-5. Get on demand article on toics you want by providing us with suggestions and feedback.
+5. Get on demand article on topics you want by providing us with suggestions and feedback.
 6. Get to choose your prefered language between Hindi and English and get the app experience in the language you are comfortable with.
 
 ## Technology used
