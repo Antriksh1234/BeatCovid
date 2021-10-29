@@ -1,6 +1,9 @@
 # BeatCovid
 An application to spread awareness regarding COVID-19.
 
+## Video
+[![Watch the video](https://img.youtube.com/vi/RqhL4CAuDp8/maxresdefault.jpg)](https://www.youtube.com/watch?v=RqhL4CAuDp8)
+
 ## Screenshots
 <p float="left">
   <img src = "/app/src/main/res/drawable/ss1.jpg" alt  = "Screenshot" width = "200px"/>
