@@ -2,7 +2,7 @@
 An application to spread awareness regarding COVID-19.
 
 ## Video
-[![Watch the video](https://img.youtube.com/vi/YB57yepmGQs/maxresdefault.jpg)](https://www.youtube.com/watch?v=YB57yepmGQs)
+[![Watch the video](https://img.youtube.com/vi/RqhL4CAuDp8/maxresdefault.jpg)](https://www.youtube.com/watch?v=RqhL4CAuDp8)
 
 ## Screenshots
 <p float="left">
